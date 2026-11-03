@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Design tokens taken from the Figma file (Event&Survey) */
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-brand: #2baccc;
+  --color-brand-dark: #0e7490;
+  --color-brand-mid: #55bed8;
+  --color-brand-light: #8fd6e7;
+  --color-brand-soft: #e0f4f9;
+
+  --color-ink: #111827;
+  --color-body: #374151;
+  --color-muted: #6b7280;
+  --color-line: #e5e7eb;
+  --color-field: #f3f4f6;
+  --color-canvas: #f5f6f7;
+
+  --color-success: #16a34a;
+  --color-success-soft: #dcfce7;
+  --color-warning: #b45309;
+  --color-warning-soft: #fef3c7;
+  --color-danger: #dc2626;
+  --color-danger-soft: #fee2e2;
+  --color-violet: #6366f1;
+  --color-orange: #f97316;
+}
+
+body {
+  @apply bg-canvas text-ink antialiased;
+}
